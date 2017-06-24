@@ -16,7 +16,7 @@
 ///////////////////
 
 // Set the location of the API you want to connect to.
-var api = 'https://api.freesewing.org';
+var api = 'https://core.freesewing.org';
 
 
 ///////////////////////////////////////////////////////////////////////////
