@@ -103,7 +103,7 @@ Bezier curves are more intuitive as you might think. Here is an example:
 #### Pathstrings
 
 Pathstrings are a way to describe a path &mdash; made up of curves and/or line segments &mdash; in text.
-In freesewing, wesupport the following operations in pathstrings:
+In freesewing, we support the following operations in pathstrings:
 
 - `M` : Move. The move operation moves to a specific point. Moving does not draw anything. It.s like moving across the paper without putting your pencil down.
 - `L` : Line. The line operation draws a line from where we are now to a given point.
@@ -135,7 +135,7 @@ But when it does, it can be hard to know your pattern is wrong in the absence of
 something to compare it to. That's where the compare service comes in.
 
 It is a combination of the draft service and the sample service.
-It will first created a stack of sampled drafts for standard models, and then stack your
+It will first create a stack of sampled drafts for standard models, and then stack your
 own draft on top of that.
 
 This way, you can simply eyeball your own pattern in comparison to a range of other models.
@@ -159,7 +159,7 @@ knowing only this:
 - Channels can have their own `config.yml` in their folder root.
 
 ## Request parameters
-Freesewing needs your input to do what it does. And that input comes in the form or request parameters.
+Freesewing needs your input to do what it does. And that input comes in the form of request parameters.
 
 The full details on all request parameters are available [here](/parameters). 
 But you can get away with knowing only this:
@@ -219,7 +219,7 @@ Command line example: `./freesewing service=draft pattern=AaronAshirt`
 
 #### theme
 
-The optional **theme** parameter must be the exaact name of a themes folder/class.
+The optional **theme** parameter must be the exact name of a themes folder/class.
 
 Browser example: `index.php?service=draft&pattern=AaronAshirt&theme=Designer`
 
